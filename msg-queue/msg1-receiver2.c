@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 		exit(1);
 	}
 	
-	if(-1 == (msqid = msgget( (key_t)242424, IPC_CREAT | 0666 ))) {
+	if(-1 == (msqid = msgget( (key_t)424242, IPC_CREAT | 0666 ))) {
 		printf("msgget() error");
 		exit(1);
 	}
